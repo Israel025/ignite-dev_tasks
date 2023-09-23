@@ -3,3 +3,19 @@
 
 # Ada Library Information
 *.ali
+
+# Provider/dependencies directory
+.terraform/
+terraform_nodeApp/.terraform/
+
+# terraform state file
+terraform.tfstate
+terraform_nodeApp/terraform.tfstate
+terraform_nodeApp/terraform.tfstate.backup
+
+# Vagrant files
+.vagrant
+Vagrantfile
+
+# kubeconfig file
+terraform_nodeApp/kube_config/clust_kubeconfig.yaml
